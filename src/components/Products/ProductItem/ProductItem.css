@@ -1,0 +1,25 @@
+.imageCard {
+  flex: 0.2;
+  height: 160px;
+  object-fit: contain;
+  border-radius: 20px;
+}
+
+.productCard {
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  padding: 10px;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+#title {
+  font-weight: bold;
+  font-size: 12pt;
+}
+
+#desc {
+  font-size: 11pt;
+}
